@@ -61,5 +61,5 @@ type Props = {
 /**
  * App Launcher Tiles provide information and links to a user's apps
  */
-function Component(props: Props): JSX.Element;
+function Component(props: Props): React.JSX.Element;
 export default Component;

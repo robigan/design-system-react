@@ -66,5 +66,5 @@ type Props = {
 /**
  * Toast serves as a feedback & confirmation mechanism after the user takes an action. View [banner guidelines](https://www.lightningdesignsystem.com/guidelines/messaging/components/banners/).
  */
-function Component(props: Props): JSX.Element;
+function Component(props: Props): React.JSX.Element;
 export default Component;

@@ -92,5 +92,5 @@ type Props = {
 /**
  * A pill displays a label that can contain links and can be removed from view. Use `PillContainer` for a list of pills in a container that resembles an `input` form field. A pill is useful for displaying read-only text that can be added and removed on demand.
  */
-function Component(props: Props): JSX.Element;
+function Component(props: Props): React.JSX.Element;
 export default Component;

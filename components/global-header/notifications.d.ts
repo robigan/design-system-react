@@ -23,5 +23,5 @@ type Props = {
 /**
  * A GlobalHeaderNotifications component. Notifications are a way to notify a user about a global change within the application.
  */
-function Component(props: Props): JSX.Element;
+function Component(props: Props): React.JSX.Element;
 export default Component;

@@ -312,5 +312,5 @@ type Props = {
 /**
  * A widget that provides a user with an input field that is either an autocomplete or readonly, accompanied with a listbox of pre-definfined options.
  */
-function Component(props: Props): JSX.Element;
+function Component(props: Props): React.JSX.Element;
 export default Component;

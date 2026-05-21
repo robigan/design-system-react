@@ -58,5 +58,5 @@ type Props = {
 	options: any[] /*.isRequired*/;
 };
 
-function Component(props: Props): JSX.Element;
+function Component(props: Props): React.JSX.Element;
 export default Component;

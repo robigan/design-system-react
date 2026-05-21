@@ -65,5 +65,5 @@ type Props = {
 /**
  * A location map component is used to find and show locations
  */
-function Component(props: Props): JSX.Element;
+function Component(props: Props): React.JSX.Element;
 export default Component;

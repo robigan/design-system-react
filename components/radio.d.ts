@@ -103,5 +103,5 @@ type Props = {
  * A radio input that can have a single input checked at any one time. Radios should be wrapped with
  * a [RadioGroup](/components/radio-group) or [RadioButtonGroup](/components/radio-button-group)
  */
-function Component(props: Props): JSX.Element;
+function Component(props: Props): React.JSX.Element;
 export default Component;

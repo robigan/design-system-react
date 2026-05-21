@@ -45,5 +45,5 @@ type Props = {
  * CarouselIndicators is used to display the list of indicators associated to the number of panels
  * a carousel has
  */
-function Component(props: Props): JSX.Element;
+function Component(props: Props): React.JSX.Element;
 export default Component;

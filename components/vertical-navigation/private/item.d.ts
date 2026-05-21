@@ -24,5 +24,5 @@ type Props = {
 	onSelect?: (v: any) => any;
 };
 
-function Component(props: Props): JSX.Element;
+function Component(props: Props): React.JSX.Element;
 export default Component;

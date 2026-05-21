@@ -2,7 +2,7 @@ import React from 'react';
 
 type Step = {
 	id: string | number;
-	label: string | JSX.Element;
+	label: string | React.JSX.Element;
 	assistiveText?: string;
 };
 
@@ -111,5 +111,5 @@ type Props = {
 /**
  * Progress Indicator is a component that communicates to the user the progress of a particular process.
  */
-function Component(props: Props): JSX.Element;
+function Component(props: Props): React.JSX.Element;
 export default Component;

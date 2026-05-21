@@ -87,5 +87,5 @@ type Props = {
 /**
  * The ability to style sliders with CSS varies across browsers. Using this component ensures sliders look the same everywhere.
  */
-function Component(props: Props): JSX.Element;
+function Component(props: Props): React.JSX.Element;
 export default Component;

@@ -44,5 +44,5 @@ type Props = {
 /**
  * Tile component item represents a tile in a Welcome Mat
  */
-function Component(props: Props): JSX.Element;
+function Component(props: Props): React.JSX.Element;
 export default Component;
