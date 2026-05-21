@@ -71,5 +71,5 @@ type Props = {
 /**
  * A set of delightful animated icons.
  */
-function Component(props: Props): React.JSX.Element;
+declare function Component(props: Props): React.JSX.Element;
 export default Component;

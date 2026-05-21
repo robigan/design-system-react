@@ -37,5 +37,5 @@ type Props = {
  * The Notification component is the Alert and Toast variants of the Lightning Design System Notification component. For prompt notifications, use the <a href='#/modal'>Modal</a> component with <code>prompt={true}</code>.
  * The Notification opens from a state change outside of the component itself (pass this state to the <code>isOpen</code> prop).
  */
-function Component(props: Props): React.JSX.Element;
+declare function Component(props: Props): React.JSX.Element;
 export default Component;

@@ -4,5 +4,5 @@ type Props = {
 	setAppElement: (arg0: string) => void;
 	getAppElement: () => string;
 };
-const settings: Props;
+declare const settings: Props;
 export default settings;

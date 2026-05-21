@@ -34,5 +34,5 @@ type Props = {
 /**
  * Progress renders all step buttons and a container wrapping these buttongs and a progress bar
  */
-function Component(props: Props): React.JSX.Element;
+declare function Component(props: Props): React.JSX.Element;
 export default Component;

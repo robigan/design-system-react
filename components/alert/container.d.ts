@@ -12,5 +12,5 @@ type Props = {
 /**
  * A fixed container for alert banners.
  */
-function Component(props: Props): React.JSX.Element;
+declare function Component(props: Props): React.JSX.Element;
 export default Component;

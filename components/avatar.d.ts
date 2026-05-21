@@ -50,5 +50,5 @@ type Props = {
  If `initials` or `label` are not available, the fallback avatar will render a standard icon. If `variant='user'`, a user icon will
  render. If `variant='entity'`, an account icon will render.
  */
-function Component(props: Props): React.JSX.Element;
+declare function Component(props: Props): React.JSX.Element;
 export default Component;

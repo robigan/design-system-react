@@ -22,5 +22,5 @@ type Props = {
 	truncate?: boolean;
 };
 
-function Component(props: Props): React.JSX.Element;
+declare function Component(props: Props): React.JSX.Element;
 export default Component;

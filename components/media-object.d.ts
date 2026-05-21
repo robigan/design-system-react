@@ -24,5 +24,5 @@ type Props = {
 /**
  * When you need text and a figure next to each other, use a media object.
  */
-function Component(props: Props): React.JSX.Element;
+declare function Component(props: Props): React.JSX.Element;
 export default Component;

@@ -28,5 +28,5 @@ type Props = {
 /**
  * App Launcher Link component creates simple links to be used in "All Items" sections
  */
-function Component(props: Props): React.JSX.Element;
+declare function Component(props: Props): React.JSX.Element;
 export default Component;

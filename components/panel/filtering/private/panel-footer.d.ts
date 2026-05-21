@@ -18,5 +18,5 @@ type Props = {
 	removeAllLabel: React.ReactNode /*.isRequired*/;
 };
 
-function Component(props: Props): React.JSX.Element;
+declare function Component(props: Props): React.JSX.Element;
 export default Component;

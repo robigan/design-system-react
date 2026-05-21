@@ -70,5 +70,5 @@ type Props = {
  * Setup Assistant Step component is used to specify individual items within the Setup Assistant
  * filled with learning and task links along with a recommended sequence that may have progress tracking
  */
-function Component(props: Props): React.JSX.Element;
+declare function Component(props: Props): React.JSX.Element;
 export default Component;

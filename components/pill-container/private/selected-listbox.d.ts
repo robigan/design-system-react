@@ -85,5 +85,5 @@ type Props = {
 	variant?: 'base' | 'inline-listbox' | 'readonly';
 };
 
-function Component(props: Props): React.JSX.Element;
+declare function Component(props: Props): React.JSX.Element;
 export default Component;

@@ -111,5 +111,5 @@ type Props = {
 /**
  * Progress Indicator is a component that communicates to the user the progress of a particular process.
  */
-function Component(props: Props): React.JSX.Element;
+declare function Component(props: Props): React.JSX.Element;
 export default Component;

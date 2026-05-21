@@ -25,5 +25,5 @@ type Props = {
 /**
  * Used internally, provides header row rendering to the DataTable.
  */
-function Component(props: Props): React.JSX.Element;
+declare function Component(props: Props): React.JSX.Element;
 export default Component;

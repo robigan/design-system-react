@@ -20,5 +20,5 @@ type Props = {
 /**
  * Files is a component that wraps multiple file components that represent an attachment
  */
-function Component(props: Props): React.JSX.Element;
+declare function Component(props: Props): React.JSX.Element;
 export default Component;
