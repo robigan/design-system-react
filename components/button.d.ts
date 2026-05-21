@@ -157,5 +157,5 @@ type Props = {
  * Either a <code>label</code> or <code>assistiveText.icon</code> is required; see the Prop Details table below. For buttons that maintain selected/unselected states, use the <a href="#/button-stateful">ButtonStateful</a> component.
  * Although not listed in the prop table, all `aria-*` and `form*` props will be added to the `button` element if passed in.
  */
-declare function Component(props: Props): JSX.Element;
+declare function Component(props: Props): React.JSX.Element;
 export default Component;

@@ -78,5 +78,5 @@ type Props = {
 /**
  * A Filter is a popover with custom trigger. It can be used by [Panel Filtering](/components/panels/). Menus within a Filter Popover will need to not have "portal mounts" and be inline.
  */
-declare function Component(props: Props): JSX.Element;
+declare function Component(props: Props): React.JSX.Element;
 export default Component;

@@ -13,5 +13,5 @@ type Props = {
 	setFocus?: (v: any) => any;
 };
 
-declare function Component(props: Props): JSX.Element;
+declare function Component(props: Props): React.JSX.Element;
 export default Component;

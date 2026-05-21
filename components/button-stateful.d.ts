@@ -90,5 +90,5 @@ type Props = {
  * If no `aria-*` props are passed in, <code>aria-live='polite'</code> is used for `icon` and `icon-filled` variants,
  * and <code>aria-live='assertive'</code> is used for the remaining variants.
  */
-declare function Component(props: Props): JSX.Element;
+declare function Component(props: Props): React.JSX.Element;
 export default Component;

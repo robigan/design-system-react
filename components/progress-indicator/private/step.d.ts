@@ -77,5 +77,5 @@ type Props = {
  * The button is applied with different css classes under different conditions.
  * Button icons have 4 types of status: completed (success), active (in progress), error (warning) and uncompleted (not approached)
  */
-declare function Component(props: Props): JSX.Element;
+declare function Component(props: Props): React.JSX.Element;
 export default Component;

@@ -37,5 +37,5 @@ type Props = {
 /**
  * RowActions provide a mechanism for defining a menu to display alongside each row in the DataTable.
  */
-declare function Component(props: Props): JSX.Element;
+declare function Component(props: Props): React.JSX.Element;
 export default Component;

@@ -50,5 +50,5 @@ type Props = {
 /**
  * A progress bar component communicates to the user the progress of a particular process
  */
-declare function Component(props: Props): JSX.Element;
+declare function Component(props: Props): React.JSX.Element;
 export default Component;

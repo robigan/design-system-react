@@ -33,5 +33,5 @@ type Props = {
 /**
  * Badges are labels which hold small amounts of information.
  */
-declare function Component(props: Props): JSX.Element;
+declare function Component(props: Props): React.JSX.Element;
 export default Component;

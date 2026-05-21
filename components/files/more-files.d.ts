@@ -39,5 +39,5 @@ type Props = {
 /**
  * MoreFiles is a component that represents a number of file contents uploaded as an attachment.
  */
-declare function Component(props: Props): JSX.Element;
+declare function Component(props: Props): React.JSX.Element;
 export default Component;

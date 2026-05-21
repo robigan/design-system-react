@@ -39,5 +39,5 @@ type Props = {
 /**
  * Toggle visibility of section content with the Expandable Section
  */
-declare function Component(props: Props): JSX.Element;
+declare function Component(props: Props): React.JSX.Element;
 export default Component;

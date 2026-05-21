@@ -38,5 +38,5 @@ type Props = {
 /**
  * App Launcher Sections allow users to categorize App Tiles as well as toggle their display
  */
-declare function Component(props: Props): JSX.Element;
+declare function Component(props: Props): React.JSX.Element;
 export default Component;

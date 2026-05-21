@@ -24,5 +24,5 @@ type Props = {
 /**
  * Vertical Navigation represents a list of links that either take the user to another page or parts of the page the user is in.
  */
-declare function Component(props: Props): JSX.Element;
+declare function Component(props: Props): React.JSX.Element;
 export default Component;

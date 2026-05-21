@@ -14,5 +14,5 @@ type Props = {
 /**
  * ProgressBar renders the blue/gray progress bar and dynamically updates its completion percentage
  */
-declare function Component(props: Props): JSX.Element;
+declare function Component(props: Props): React.JSX.Element;
 export default Component;
