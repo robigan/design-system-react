@@ -28,5 +28,5 @@ type Props = {
 /**
  * This component is an `Avatar` component that opens a `Popover` component when clicked.
  */
-function Component(props: Props): JSX.Element;
+declare function Component(props: Props): JSX.Element;
 export default Component;

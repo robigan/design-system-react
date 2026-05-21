@@ -61,5 +61,5 @@ type Props = {
  * These expressions can be used when querying for a filtered set of records,
  * creating rules to control when something executes, or any other conditional logic.
  */
-function Component(props: Props): JSX.Element;
+declare function Component(props: Props): JSX.Element;
 export default Component;

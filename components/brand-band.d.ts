@@ -37,5 +37,5 @@ type Props = {
 /**
  * The brand band provides theming capability that adds personality and improves information density and contrast.
  */
-function Component(props: Props): JSX.Element;
+declare function Component(props: Props): JSX.Element;
 export default Component;

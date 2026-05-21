@@ -33,5 +33,5 @@ type Props = {
 /**
  * StepVertical renders a step icon and its step label if applied
  */
-function Component(props: Props): JSX.Element;
+declare function Component(props: Props): JSX.Element;
 export default Component;

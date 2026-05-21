@@ -15,5 +15,5 @@ type Props = {
 };
 /**
  * A panel provides detailed contextual information or contextual filtering options. [Filter](/components/filters/) component should be used as children. Menus within a Filter Popover will need to not have "portal mounts" and be inline. */
-function Component(props: Props): JSX.Element;
+declare function Component(props: Props): JSX.Element;
 export default Component;

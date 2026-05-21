@@ -48,5 +48,5 @@ type Props = {
 /**
  * Split view is used to navigate between records in a list while staying on the same screen.
  */
-function Component(props: Props): JSX.Element;
+declare function Component(props: Props): JSX.Element;
 export default Component;

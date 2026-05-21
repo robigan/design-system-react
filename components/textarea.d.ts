@@ -160,5 +160,5 @@ type Props = {
 /**
  * A multi-line plain-text editing control.
  */
-function Component(props: Props): JSX.Element;
+declare function Component(props: Props): JSX.Element;
 export default Component;

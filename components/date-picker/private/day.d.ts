@@ -56,5 +56,5 @@ type Props = {
 	onRequestInternalFocusDate?: (v: any) => any;
 };
 
-function Component(props: Props): JSX.Element;
+declare function Component(props: Props): JSX.Element;
 export default Component;

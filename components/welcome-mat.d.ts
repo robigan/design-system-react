@@ -48,5 +48,5 @@ type Props = {
 /**
  * A Welcome Mat provides a series of unordered items a user can click to learn about a thematic topic.
  */
-function Component(props: Props): JSX.Element;
+declare function Component(props: Props): JSX.Element;
 export default Component;

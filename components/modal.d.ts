@@ -119,5 +119,5 @@ type Props = {
  * ```
  * This component uses a portalMount (a disconnected React subtree mount) to create a modal as a child of `body`.
  */
-function Component(props: Props): JSX.Element;
+declare function Component(props: Props): JSX.Element;
 export default Component;

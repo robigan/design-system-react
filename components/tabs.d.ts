@@ -62,5 +62,5 @@ type Props = {
 /**
  * A tab keeps related content in a single container that is shown and hidden through navigation.
  */
-function Component(props: Props): JSX.Element;
+declare function Component(props: Props): JSX.Element;
 export default Component;
