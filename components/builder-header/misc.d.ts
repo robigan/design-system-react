@@ -13,5 +13,5 @@ type Props = {
 	children?: React.ReactNode;
 };
 
-function Component(props: Props): JSX.Element;
+declare function Component(props: Props): JSX.Element;
 export default Component;

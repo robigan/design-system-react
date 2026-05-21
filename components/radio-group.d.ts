@@ -56,5 +56,5 @@ type Props = {
  * A styled select list that can have a single entry checked at any one time.
  * The RadioGroup component wraps [Radio](/components/radios) components, which should be used as children.
  */
-function Component(props: Props): JSX.Element;
+declare function Component(props: Props): JSX.Element;
 export default Component;

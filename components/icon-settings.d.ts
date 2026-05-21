@@ -53,5 +53,5 @@ type Props = {
  * Otherwise use the iconPath to specify the root path to where the icon files will be located in you application
  * such as `/assets/icons`.
  */
-function Component(props: Props): JSX.Element;
+declare function Component(props: Props): JSX.Element;
 export default Component;

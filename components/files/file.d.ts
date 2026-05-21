@@ -74,5 +74,5 @@ type Props = {
 /**
  * File is a component that represents content uploaded as an attachment.
  */
-function Component(props: Props): JSX.Element;
+declare function Component(props: Props): JSX.Element;
 export default Component;

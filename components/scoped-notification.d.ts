@@ -23,5 +23,5 @@ type Props = {
 /**
  * A Scoped Notification Component serve advisory information for the user that is not important enough to justify an alert.
  */
-function Component(props: Props): JSX.Element;
+declare function Component(props: Props): JSX.Element;
 export default Component;

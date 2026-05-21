@@ -55,5 +55,5 @@ type Props = {
 	variant?: 'base' | 'object-home' | 'record-home' | 'related-list';
 };
 
-function Component(props: Props): JSX.Element;
+declare function Component(props: Props): JSX.Element;
 export default Component;

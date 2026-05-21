@@ -73,5 +73,5 @@ type Props = {
  * A carousel allows multiple pieces of featured content to occupy an allocated amount of space.
  * Currently panel index and auto play cannot be controlled by the app.
  */
-function Component(props: Props): JSX.Element;
+declare function Component(props: Props): JSX.Element;
 export default Component;

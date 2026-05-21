@@ -29,5 +29,5 @@ type Props = {
  * Setup Assistant provides Administrators with a centralized list of tasks for
  * onboarding organizations, clouds, or features within the Salesforce Platform.
  */
-function Component(props: Props): JSX.Element;
+declare function Component(props: Props): JSX.Element;
 export default Component;

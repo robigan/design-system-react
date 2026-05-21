@@ -163,5 +163,5 @@ type Props = {
  *
  * NOTE: for horizontal scrolling with `fixedHeader`-enabled DataTables, see the `style` property description
  */
-function Component(props: Props): JSX.Element;
+declare function Component(props: Props): JSX.Element;
 export default Component;

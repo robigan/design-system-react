@@ -47,5 +47,5 @@ type Props = {
 /**
  * Used internally, renders each individual column heading.
  */
-function Component(props: Props): JSX.Element;
+declare function Component(props: Props): JSX.Element;
 export default Component;

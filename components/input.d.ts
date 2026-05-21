@@ -249,5 +249,5 @@ type Props = {
 /**
  * The HTML `input` with a label and error messaging.
  */
-function Component(props: Props): JSX.Element;
+declare function Component(props: Props): JSX.Element;
 export default Component;
